@@ -100,3 +100,15 @@ The application predicts the price of a car, for example: `$15,500.00`.
 * **Feature Engineering:** Add more features such as `make` or `model` (after proper encoding) to improve the prediction accuracy.
 * **Deployment:** Deploy the Flask application to a cloud platform like Heroku or Render for public access.
 * **User Interface:** Enhance the web application with a more interactive UI, providing visualizations of the data or prediction confidence.
+
+## Screen Shots
+
+**Home Page:**
+
+<img width="1920" height="1080" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/9808eec3-dfe9-46af-a455-7f77f1b89a5d" />
+
+
+
+**Result Page:**
+
+<img width="1920" height="1080" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/1a100466-f48a-4d65-a088-68aef26e6f33" />
