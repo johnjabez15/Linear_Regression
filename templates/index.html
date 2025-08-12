@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Car Price Predictor</h1>
+        <p>Enter the car's details to estimate its price.</p>
+        <form action="/predict" method="post">
+            <div class="form-group">
+                <label for="mileage">Mileage (in miles):</label>
+                <input type="number" id="mileage" name="Mileage" step="1000" min="0" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="engine_size">Engine Size (in liters):</label>
+                <input type="number" id="engine_size" name="EngineSize" step="0.1" min="0.1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age (in years):</label>
+                <input type="number" id="age" name="Age" min="0" required>
+            </div>
+            
+            <button type="submit" class="submit-button">Predict Price</button>
+        </form>
+    </div>
+</body>
+</html>
